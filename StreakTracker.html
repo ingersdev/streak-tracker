@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+	st_name = "StreakTracker"
+	st_ver_num = "0.0.0"
+	st_ver_status = "alpha"
+	st_ver = st_ver_num + " (" + st_ver_status + ")"
+	function st_initialise() {
+		descriptive = st_name + " " + st_ver
+		document.title = descriptive
+		document.getElementById("st_descriptive").innerHTML = descriptive
+	}
+</script>
+	<title>StreakTracker</title>
+</head>
+<body onload="st_initialise()">
+	<h1><span id="st_descriptive">StreakTracker</span></h1>
+	<p>Hello, world!</p>
+</body>
